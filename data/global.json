@@ -1,0 +1,10 @@
+{
+    "url":"http://demo.automationtesting.in/",
+    "username":"sriramku",
+    "password":"password1",
+
+    "address":{
+        "city": "bangalore",
+        "zip":"560029"
+    }
+}

@@ -9,8 +9,28 @@ exports.config = {
 
     framework: 'jasmine',
 
-    //specs: ['../specs/calculator_demo.js']
-    specs: ['./specs/pom_example.js'],
+    //specs: ['./specs/calculator_demo.js'],
+    //specs: ['./specs/pom_example.js'],
+    //specs: ['./specs/radio_button.js'],
+    //specs: ['./specs/nonangularapps.js'],
+    //specs: ['./specs/getText.js'],
+    //specs: ['./specs/getCurrentUrl.js'],
+    //specs: ['./specs/getAttribute.js'],
+    //specs: ['./specs/mouseActions.js'],
+    //specs: ['./specs/AlertsPopups.js'],
+    //specs: ['./specs/frames.js'],
+    //specs: ['./specs/windowhandles.js'],
+    //specs: ['./specs/page_screenshot.js'],
+    //specs: ['./specs/element_screenshot.js'],
+    //specs: ['./specs/read_json.js'],
+    //specs: ['./specs/fake_data_generator.js'],
+    specs: ['./specs/draganddrop.js'],
+    
+    
+
+    capabilities : {
+        browserName: 'chrome'
+    },
 
     // Setup the report before any tests start
     beforeLaunch: function () {
